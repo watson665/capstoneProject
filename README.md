@@ -40,7 +40,24 @@ c
 # **Projected Schedule**
 
 
-| Column 1       | Column 2     | Column 3     |
-| :------------- | :----------: | -----------: |
-|  Cell Contents | More Stuff   | And Again    |
-| You Can Also   | Put Pipes In | Like this \| |
+| Date           | Task         | Status       |
+| :----------:   | :----------: | :----------: |
+|  8/13/20       | Submit Idea for approval   | Complete   |
+|  8/13/20       | Complete README | Complete |
+|  8/14/20       | Create Angular App | Pending |
+|  8/14/20       | Start Making the Home page of application | Pending |
+|  8/15/20       | Continue working on Home page | Pending
+|  8/16/20       | Complete Home page | Pending  |
+|  8/17/20       | Cuisine 1 component | Pending |
+|  8/18/20       | Cuisine 2 component | Pending |
+|  8/19/20       | Cuisine 3 component | Pending |
+|  8/20/20       | Cuisine 4 component | Pending |
+|  8/21/20       | Cuisine 5 component | Pending |
+|  8/22/20       | Cuisine 6 component | Pending |
+|  8/23/20       | Link the views to the buttons on the first page | Pending |
+|  8/24/20       | Use directives to add the additional information on food truck when user selects one | Pending |
+|  8/25/20       | Use directives to add the additional information on food truck when user selects one | Pending |
+|  8/26/20       | Use directives to add the additional information on food truck when user selects one | Pending |
+|  8/27/20       | Use directives to add the additional information on food truck when user selects one | Pending
+|  8/28/20       | Troubleshooting, final editing of app | Pending |
+|  8/29/20       | Submit Assignment | Pending |
