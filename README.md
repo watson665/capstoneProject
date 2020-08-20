@@ -44,7 +44,7 @@ c
 | :----------:   | :----------: | :----------: |
 |  8/13/20       | Submit Idea for approval   | Complete   |
 |  8/13/20       | Complete README | Complete |
-|  8/14/20       | Create Angular App | Pending |
+|  8/14/20       | Create Angular App | Complete |
 |  8/14/20       | Start Making the Home page of application | Pending |
 |  8/15/20       | Continue working on Home page | Pending
 |  8/16/20       | Complete Home page | Pending  |
