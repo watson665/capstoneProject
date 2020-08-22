@@ -4,11 +4,21 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
+import { BreakfastComponent } from './breakfast/breakfast.component';
+import { AmericanComponent } from './american/american.component';
+import { BbqComponent } from './bbq/bbq.component';
+import { HealthyComponent } from './healthy/healthy.component';
+import { DessertComponent } from './dessert/dessert.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    BreakfastComponent,
+    AmericanComponent,
+    BbqComponent,
+    HealthyComponent,
+    DessertComponent
   ],
   imports: [
     BrowserModule,
