@@ -9,6 +9,7 @@ import { AmericanComponent } from './american/american.component';
 import { BbqComponent } from './bbq/bbq.component';
 import { HealthyComponent } from './healthy/healthy.component';
 import { DessertComponent } from './dessert/dessert.component';
+import { InternationalComponent } from './international/international.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { DessertComponent } from './dessert/dessert.component';
     AmericanComponent,
     BbqComponent,
     HealthyComponent,
-    DessertComponent
+    DessertComponent,
+    InternationalComponent
   ],
   imports: [
     BrowserModule,
