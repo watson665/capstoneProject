@@ -26,15 +26,15 @@ export class AmericanComponent implements OnInit {
     },
     {
       name: "The Cheesy Truck",
-      image: "jdjdjdj",
-      yelp: "",
-      website: ""
+      image: "https://thebreakfastgrubguy.files.wordpress.com/2013/06/101_1540.jpg",
+      yelp: "https://www.yelp.com/biz/the-cheesy-truck-columbus-2?osq=The+Cheesy+Truck",
+      website: "https://www.thecheesytruck.com/"
     },
     {
       name: "The Tasty Good",
-      image: "hfhfhf",
-      yelp: "",
-      website: ""
+      image: "https://s3-media0.fl.yelpcdn.com/bphoto/A7Z-6gMEX4d3pJLdLMmuNQ/l.jpg",
+      yelp: "https://www.yelp.com/biz/the-tasty-good-columbus?osq=The+Tasty+Good",
+      website: "https://www.facebook.com/thetastygood/"
     },
 
   ]
