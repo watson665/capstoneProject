@@ -16,6 +16,7 @@ const routes: Routes = [
   { path: "dessert", component: DessertComponent},
   { path: "healthy", component: HealthyComponent},
   { path: "international", component: InternationalComponent},
+  { path: '', redirectTo: '/home', pathMatch: 'full'},
 
 ];
 
