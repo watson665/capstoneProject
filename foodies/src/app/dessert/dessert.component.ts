@@ -6,11 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./dessert.component.css']
 })
 export class DessertComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
   dessert = [
     {
       name: "Graeter's Food Truck",
@@ -32,5 +27,9 @@ export class DessertComponent implements OnInit {
     },
 
   ]
+  constructor() { }
 
+  ngOnInit(): void {
+  }
+  
 }

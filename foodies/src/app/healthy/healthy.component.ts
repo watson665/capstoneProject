@@ -6,11 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./healthy.component.css']
 })
 export class HealthyComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
   healthy = [
     {
       name: "Kinetic",
@@ -25,5 +20,10 @@ export class HealthyComponent implements OnInit {
       website: "https://www.thelittlekitchentruck.com/"
     },
   ]
+  
+  constructor() { }
+
+  ngOnInit(): void {
+  }
 
 }

@@ -1,3 +1,4 @@
+<!-- 
 <div class="header-logo">
     <img src="assets/img/614Foodies_Logo.png"/>  
 </div>
@@ -6,12 +7,12 @@
 </div>
 <div class="foodtrucks">
     <button type="button" class="btn-lg btn-link" style= text-align:center>Holy Crepes</button>
-    <!-- 
+ 
         Array of Objects
         Yelp Rating 
         Food Truck Image
         URL to website or social media
-    -->
+   
     <br>
     <button type="button" class="btn-lg btn-link" style= text-align:center>Tupelo Doughnuts</button>
     <br>
@@ -20,4 +21,12 @@
     <button type="button" class="btn-lg btn-link" style= text-align:center>Early Bird Food Truck</button>
     <br>
     <button type="button" class="btn-lg btn-link" style= text-align:center>Broke Johnny Food Truck</button>
+</div>
+ -->
+ <div>
+    <ul>
+     <li *ngFor="let breakfasts of breakfast">
+     {{breakfasts.name}}
+     </li>
+     </ul>
 </div>

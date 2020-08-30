@@ -6,11 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./international.component.css']
 })
 export class InternationalComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
   international = [
     {
       name: "Taquitos Taco Truck",
@@ -32,5 +27,10 @@ export class InternationalComponent implements OnInit {
     },
 
   ]
+
+  constructor() { }
+
+  ngOnInit(): void {
+  }
 
 }

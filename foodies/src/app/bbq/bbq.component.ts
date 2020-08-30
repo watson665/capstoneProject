@@ -6,11 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./bbq.component.css']
 })
 export class BbqComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
   bbq = [
     {
       name: "Ray Ray's Hog Pit",
@@ -32,5 +27,9 @@ export class BbqComponent implements OnInit {
     },
 
   ]
+  
+  constructor() { }
 
+  ngOnInit(): void {
+  }
 }

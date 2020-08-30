@@ -6,11 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./breakfast.component.css']
 })
 export class BreakfastComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
   breakfast = [
     {
       name: "Holy Crepes",
@@ -30,6 +25,10 @@ export class BreakfastComponent implements OnInit {
       yelp: "https://www.yelp.com/biz/broke-johnny-food-truck-columbus",
       website: "http://www.brokejohnnytruck.com/"
     },
-
   ]
+
+  constructor() { }
+
+  ngOnInit(): void {
+  }
 }

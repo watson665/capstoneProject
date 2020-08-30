@@ -1,3 +1,4 @@
+<!-- 
 <div class="header-logo">
     <img src="assets/img/614Foodies_Logo.png"/>  
 </div>
@@ -6,15 +7,22 @@
 </div>
 <div class="foodtrucks">
     <button type="button" class="btn-lg btn-link" style= text-align:center>Kinetic</button>
-    <!-- 
         Array of Objects
         Yelp Rating 
         Food Truck Image
         URL to website or social media
-    -->
     <br>
     <button type="button" class="btn-lg btn-link" style= text-align:center>The Little Kitchen</button>
     <br>
     <button type="button" class="btn-lg btn-link" style= text-align:center>Moody Trudy's Food Truck</button>
+</div>
+-->
+
+<div>
+    <ul>
+     <li *ngFor="let healthys of healthy">
+     {{healthys.name}}
+     </li>
+     </ul>
 </div>
 

@@ -1,3 +1,4 @@
+<!-- 
 <div class="header-logo">
     <img src="assets/img/614Foodies_Logo.png"/>  
 </div>
@@ -6,12 +7,11 @@
 </div>
 <div class="foodtrucks">
     <button type="button" class="btn-lg btn-link" style= text-align:center>The Float Factory</button>
-    <!-- 
+ 
         Array of Objects
         Yelp Rating 
         Food Truck Image
         URL to website or social media
-    -->
     <br>
     <button type="button" class="btn-lg btn-link" style= text-align:center>Sweet Cheese</button>
     <br>
@@ -20,4 +20,12 @@
     <button type="button" class="btn-lg btn-link" style= text-align:center>Chilljoy Frozen Treatery</button>
     <br>
     <button type="button" class="btn-lg btn-link" style= text-align:center>Graeter's Food Truck</button>
+</div>
+-->
+<div>
+    <ul>
+     <li *ngFor="let desserts of dessert">
+     {{desserts.name}}
+     </li>
+     </ul>
 </div>
