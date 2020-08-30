@@ -9,10 +9,10 @@
 ### The routes in my application will include a home page as well as routes that will change the screen depending on the type of food truck (after selecting a cuisine) selected by the user.
 
 # **Features Description**
-Use ng new generator to start 614Foodies angular app.
-Use angular routing to show the different food trucks that offer that category of food.
-Use angular routing to show the different food trucks that offer that category of food based on cuisine selection on the home page.
-Use hard coded information about different food trucks and the type of food that they serve in the Columbus region.
+* Use ng new generator to start 614Foodies angular app.
+* Use angular routing to show the different food trucks that offer that category of food.
+* Use angular routing to show the different food trucks that offer that category of food based on cuisine selection on the home page.
+* Use hard coded information about different food trucks and the type of food that they serve in the Columbus region.
     * At least 5 components: American, Breakfast, BBQ, Latin American, Dessert.
 * Must use Angular services and Angular directives:
     * I am going to use ngswitch to show additional information about the food truck that the user selects once the user narrows their selection down to their respective cuisine choice. When the user selects a food truck additional information, such as a link to an URL to the food truck website will appear.
