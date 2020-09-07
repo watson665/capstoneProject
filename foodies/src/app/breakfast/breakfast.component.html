@@ -23,17 +23,21 @@
     <button type="button" class="btn-lg btn-link" style= text-align:center>Broke Johnny Food Truck</button>
 </div>
  -->
- <div>
+<div>
     <ul>
-     <li *ngFor="let breakfasts of breakfast">
+     <li *ngFor="let breakfasts of breakfast" (click)="displayFoodTruckInfo(breakfasts)">
      {{breakfasts.name}}
      <br>
-     {{breakfasts.image}}
-     <br>
-     {{breakfasts.yelp}}
-     <br>
-     {{breakfasts.website}}
      </li>
      </ul>
+</div>
+
+<div *ngIf="currentFoodTruck">
+    <h1>{{currentFoodTruck.name}}</h1>
+    <img src={{currentFoodTruck.image}}>
+    <br>
+    <a href={{currentFoodTruck.yelp}}>Yelp Reviews</a>
+    <br>
+    <a href={{currentFoodTruck.website}}>Social Media</a>
 </div>
 

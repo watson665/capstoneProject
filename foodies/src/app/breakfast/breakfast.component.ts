@@ -6,6 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./breakfast.component.css']
 })
 export class BreakfastComponent implements OnInit {
+  currentFoodTruck = null;
+  displayFoodTruckInfo(arr) {
+    console.log("I click this");
+    this.currentFoodTruck = arr;
+    console.log(this.currentFoodTruck)
+  }
   breakfast = [
     {
       name: "Holy Crepes",

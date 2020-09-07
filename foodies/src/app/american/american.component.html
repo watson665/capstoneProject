@@ -37,15 +37,19 @@
 -->
 <div>
     <ul>
-     <li *ngFor="let americans of american">
+     <li *ngFor="let americans of american" (click)="displayFoodTruckInfo(americans)">
      {{americans.name}}
      <br>
-     {{americans.image}}
-     <br>
-     {{americans.yelp}}
-     <br>
-     {{americans.website}}
      </li>
      </ul>
+</div>
+
+<div *ngIf="currentFoodTruck">
+    <h1>{{currentFoodTruck.name}}</h1>
+    <img src={{currentFoodTruck.image}}>
+    <br>
+    <a href={{currentFoodTruck.yelp}}>Yelp Reviews</a>
+    <br>
+    <a href={{currentFoodTruck.website}}>Social Media</a>
 </div>
 

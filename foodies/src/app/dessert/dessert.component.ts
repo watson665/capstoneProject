@@ -6,6 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./dessert.component.css']
 })
 export class DessertComponent implements OnInit {
+  currentFoodTruck = null;
+  displayFoodTruckInfo(arr) {
+    console.log("I click this");
+    this.currentFoodTruck = arr;
+    console.log(this.currentFoodTruck)
+  }
   dessert = [
     {
       name: "Graeter's Food Truck",
@@ -15,7 +21,7 @@ export class DessertComponent implements OnInit {
     },
     {
       name: "Sweet Cheese",
-      image: " https://s3-media0.fl.yelpcdn.com/bphoto/HuMTu9SmQiLE4IeD3EDCMA/o.jpg",
+      image: "https://s3-media0.fl.yelpcdn.com/bphoto/HuMTu9SmQiLE4IeD3EDCMA/o.jpg",
       yelp: "https://www.yelp.com/biz/sweet-cheese-columbus",
       website: "https://www.eatsweetcheese.com/"
     },

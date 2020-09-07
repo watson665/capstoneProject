@@ -24,14 +24,18 @@
 -->
 <div>
     <ul>
-     <li *ngFor="let desserts of dessert">
+     <li *ngFor="let desserts of dessert" (click)="displayFoodTruckInfo(desserts)">
      {{desserts.name}}
      <br>
-     {{desserts.image}}
-     <br>
-     {{desserts.yelp}}
-     <br>
-     {{desserts.website}}
      </li>
      </ul>
+</div>
+
+<div *ngIf="currentFoodTruck">
+    <h1>{{currentFoodTruck.name}}</h1>
+    <img src={{currentFoodTruck.image}}>
+    <br>
+    <a href={{currentFoodTruck.yelp}}>Yelp Reviews</a>
+    <br>
+    <a href={{currentFoodTruck.website}}>Social Media</a>
 </div>

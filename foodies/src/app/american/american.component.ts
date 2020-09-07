@@ -6,6 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./american.component.css']
 })
 export class AmericanComponent implements OnInit {
+  currentFoodTruck = null;
+  displayFoodTruckInfo(arr) {
+    console.log("I click this");
+    this.currentFoodTruck = arr;
+    console.log(this.currentFoodTruck)
+  }
   american = [
     {
     name: "Hot Mess Food Truck",
@@ -15,7 +21,7 @@ export class AmericanComponent implements OnInit {
     },
     {
     name: "The Cheesy Truck",
-    image: "https://thebreakfastgrubguy.files.wordpress.com/2013/06/101_1540.jpg",
+    image: "https://scontent.fcmh1-1.fna.fbcdn.net/v/t1.0-9/117646134_3488801907797187_2321369825907087426_o.jpg?_nc_cat=107&_nc_sid=9267fe&_nc_ohc=bbEZ_R1UGlkAX-IiJOV&_nc_ht=scontent.fcmh1-1.fna&oh=0a0ec5995a401c8bb5ccb1555e92ab5d&oe=5F7CEA00",
     yelp: "https://www.yelp.com/biz/the-cheesy-truck-columbus-2?osq=The+Cheesy+Truck",
     website: "https://www.thecheesytruck.com/"
     },
