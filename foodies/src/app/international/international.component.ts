@@ -6,6 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./international.component.css']
 })
 export class InternationalComponent implements OnInit {
+  currentFoodTruck = null;
+  displayFoodTruckInfo(arr) {
+    console.log("I click this");
+    this.currentFoodTruck = arr;
+    console.log(this.currentFoodTruck)
+  }
   international = [
     {
       name: "Taquitos Taco Truck",
@@ -15,13 +21,13 @@ export class InternationalComponent implements OnInit {
     },
     {
       name: "Schmidt’s Sausage Truck",
-      image: "Image: https://www.schmidthaus.com/wp-content/uploads/2012/11/food-truck.jpg",
+      image: "https://www.schmidthaus.com/wp-content/uploads/2012/11/food-truck.jpg",
       yelp: "https://www.yelp.com/biz/schmidts-sausage-truck-columbus-3?osq=Schmidt%27s+Sausage+Truck",
       website: "https://www.schmidthaus.com/sausage-truck/"
     },
     {
       name: "Pitabilities",
-      image: " https://s3-media0.fl.yelpcdn.com/bphoto/s7B6eq5uNVdtjMerKIIAfg/o.jpg",
+      image: "https://s3-media0.fl.yelpcdn.com/bphoto/s7B6eq5uNVdtjMerKIIAfg/o.jpg",
       yelp: "https://www.yelp.com/biz/pitabilities-gahanna-2",
       website: "https://www.pitabilities.com/"
     },
