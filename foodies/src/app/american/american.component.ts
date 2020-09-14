@@ -13,7 +13,7 @@ export class AmericanComponent implements OnInit {
     this.currentFoodTruck = arr;
     console.log(this.currentFoodTruck)
   }
-  american = [
+  american: americanInterface[] = [
     {
     name: "Hot Mess Food Truck",
     image: "https://pbs.twimg.com/profile_images/1248762577968156672/WR3D1E2T_400x400.jpg",

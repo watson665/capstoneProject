@@ -13,7 +13,7 @@ export class InternationalComponent implements OnInit {
     this.currentFoodTruck = arr;
     console.log(this.currentFoodTruck)
   }
-  international = [
+  international: internationalInterface[] = [
     {
       name: "Taquitos Taco Truck",
       image: "https://s3-media0.fl.yelpcdn.com/bphoto/0awaqplQMzFH7xq2Xp3SHw/o.jpg",

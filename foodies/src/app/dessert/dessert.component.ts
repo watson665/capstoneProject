@@ -13,7 +13,7 @@ export class DessertComponent implements OnInit {
     this.currentFoodTruck = arr;
     console.log(this.currentFoodTruck)
   }
-  dessert = [
+  dessert: dessertInterface[] = [
     {
       name: "Graeter's Food Truck",
       image: "https://s3-media0.fl.yelpcdn.com/bphoto/UFpT2-0kn5ludsMihkRpIA/l.jpg",

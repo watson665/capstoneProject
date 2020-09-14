@@ -13,7 +13,7 @@ export class BreakfastComponent implements OnInit {
     this.currentFoodTruck = arr;
     console.log(this.currentFoodTruck)
   }
-  breakfast = [
+  breakfast: breakfastInterface[] = [
     {
       name: "Holy Crepes",
       image: "https://le-cdn.website-editor.net/719be0e1f33a4346b44ede4f6665108b/dms3rep/multi/opt/holy+crepes+food+truck+columbus+ohio-960w.jpg",

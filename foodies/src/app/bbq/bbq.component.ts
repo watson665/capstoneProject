@@ -13,7 +13,7 @@ export class BbqComponent implements OnInit {
     this.currentFoodTruck = arr;
     console.log(this.currentFoodTruck)
   }
-  bbq = [
+  bbq: bbqInterface[] = [
     {
       name: "Ray Ray's Hog Pit",
       image: "https://www.grovecitysummit.com/wp-content/uploads/2016/05/5-CENTRAL-OHIO-FOOD-TRUCKS-TO-TRY-THIS-SUMMER.jpg",

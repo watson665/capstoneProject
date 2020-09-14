@@ -13,7 +13,7 @@ export class HealthyComponent implements OnInit {
     this.currentFoodTruck = arr;
     console.log(this.currentFoodTruck)
   }
-  healthy = [
+  healthy: healthyInterface[] = [
     {
       name: "Kinetic",
       image: "https://s3-media0.fl.yelpcdn.com/bphoto/9yx2IYdN7_JQGImr4rMhMQ/o.jpg",
