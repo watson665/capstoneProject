@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { healthyInterface } from "../healthyInterface";
 
 @Component({
   selector: 'app-healthy',

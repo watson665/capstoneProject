@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { dessertInterface } from "../dessertInterface";
 
 @Component({
   selector: 'app-dessert',
